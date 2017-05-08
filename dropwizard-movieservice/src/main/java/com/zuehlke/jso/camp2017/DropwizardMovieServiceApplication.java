@@ -1,5 +1,9 @@
 package com.zuehlke.jso.camp2017;
 
+import com.zuehlke.jso.camp2017.db.Movie;
+import com.zuehlke.jso.camp2017.db.MovieRepository;
+import com.zuehlke.jso.camp2017.health.MovieHealthCheck;
+import com.zuehlke.jso.camp2017.resources.MovieResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;

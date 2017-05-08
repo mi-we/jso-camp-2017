@@ -1,9 +1,10 @@
-package com.zuehlke.jso.camp2017;
+package com.zuehlke.jso.camp2017.resources;
 
-import javax.print.attribute.standard.Media;
+import com.zuehlke.jso.camp2017.db.Movie;
+import com.zuehlke.jso.camp2017.db.MovieRepository;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.util.Arrays;
 import java.util.List;
 
 @Path("movies")
@@ -13,7 +14,7 @@ public class MovieResource {
 
     private MovieRepository movieRepository;
 
-    MovieResource(MovieRepository movieRepository) {
+    public MovieResource(MovieRepository movieRepository) {
         this.movieRepository = movieRepository;
     }
 

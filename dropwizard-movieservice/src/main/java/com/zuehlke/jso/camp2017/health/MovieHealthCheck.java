@@ -1,13 +1,14 @@
-package com.zuehlke.jso.camp2017;
+package com.zuehlke.jso.camp2017.health;
 
 
 import com.codahale.metrics.health.HealthCheck;
+import com.zuehlke.jso.camp2017.db.MovieRepository;
 
 public class MovieHealthCheck extends HealthCheck {
 
     private MovieRepository movieRepository;
 
-    MovieHealthCheck(MovieRepository movieRepository) {
+    public MovieHealthCheck(MovieRepository movieRepository) {
         this.movieRepository = movieRepository;
     }
 
