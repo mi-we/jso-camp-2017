@@ -2,6 +2,7 @@ package com.zuehlke.jso.camp2017.db;
 
 
 import com.google.common.collect.ImmutableList;
+import com.zuehlke.jso.camp2017.api.Movie;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
@@ -29,5 +30,9 @@ public class MovieRepository {
         Movie newMovie = new Movie(nextId, movie.getTitle(), movie.getYear());
         movies.put(nextId, newMovie);
         return newMovie;
+    }
+
+    public void clear() {
+        movies.clear();
     }
 }
