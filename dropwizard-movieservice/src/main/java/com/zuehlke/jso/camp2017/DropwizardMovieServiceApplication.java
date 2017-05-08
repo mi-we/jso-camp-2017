@@ -1,8 +1,10 @@
 package com.zuehlke.jso.camp2017;
 
-import com.zuehlke.jso.camp2017.db.Movie;
+import com.zuehlke.jso.camp2017.api.Movie;
+import com.zuehlke.jso.camp2017.cli.HelloWorldCommand;
 import com.zuehlke.jso.camp2017.db.MovieRepository;
 import com.zuehlke.jso.camp2017.health.MovieHealthCheck;
+import com.zuehlke.jso.camp2017.resources.ClearDbTask;
 import com.zuehlke.jso.camp2017.resources.MovieResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
@@ -21,7 +23,7 @@ public class DropwizardMovieServiceApplication extends Application<DropwizardMov
 
     @Override
     public void initialize(final Bootstrap<DropwizardMovieServiceConfiguration> bootstrap) {
-        // TODO: application initialization
+        bootstrap.addCommand(new HelloWorldCommand());
     }
 
     @Override
@@ -32,6 +34,7 @@ public class DropwizardMovieServiceApplication extends Application<DropwizardMov
 
         environment.healthChecks().register("movie data", new MovieHealthCheck(movieRepository));
         environment.jersey().register(new MovieResource(movieRepository));
+        environment.admin().addTask(new ClearDbTask(movieRepository));
     }
 
 }

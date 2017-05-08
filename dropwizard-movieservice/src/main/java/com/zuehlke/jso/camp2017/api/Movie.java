@@ -1,4 +1,4 @@
-package com.zuehlke.jso.camp2017.db;
+package com.zuehlke.jso.camp2017.api;
 
 public class Movie {
 
