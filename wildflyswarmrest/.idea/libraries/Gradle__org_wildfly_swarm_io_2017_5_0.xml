@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.swarm:io:2017.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/io/2017.5.0/75616a17f1c380916a35c68588881c2fda9e384a/io-2017.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/io/2017.5.0/d3d33a77374338203e8e6631bf9d8bd57f0ac191/io-2017.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

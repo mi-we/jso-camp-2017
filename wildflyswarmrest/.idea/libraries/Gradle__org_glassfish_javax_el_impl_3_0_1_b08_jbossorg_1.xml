@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.glassfish:javax.el-impl:3.0.1-b08-jbossorg-1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.el-impl/3.0.1-b08-jbossorg-1/34562d1f6de969a421c34457582c278a2ff9faf7/javax.el-impl-3.0.1-b08-jbossorg-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.el-impl/3.0.1-b08-jbossorg-1/2e0ef649a64577ee4e6dde5677c81c5155e62239/javax.el-impl-3.0.1-b08-jbossorg-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

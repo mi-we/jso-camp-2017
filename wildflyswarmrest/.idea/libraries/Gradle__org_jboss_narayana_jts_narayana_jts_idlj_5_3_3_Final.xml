@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.narayana.jts:narayana-jts-idlj:5.3.3.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.narayana.jts/narayana-jts-idlj/5.3.3.Final/e5301da749f9968e215f5767efab2d7c4a05ccad/narayana-jts-idlj-5.3.3.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.narayana.jts/narayana-jts-idlj/5.3.3.Final/274c473651508801b970a9aac91e22313b02dd6a/narayana-jts-idlj-5.3.3.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

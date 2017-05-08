@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.swarm:connector:2017.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/connector/2017.5.0/bea88b2402976125f1ef08d949acafad34fb553c/connector-2017.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/connector/2017.5.0/424b8d41f77a27edefe929e9344560aaeccfa2d6/connector-2017.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

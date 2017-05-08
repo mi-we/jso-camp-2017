@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.swarm:config-api-runtime:1.0.3.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/config-api-runtime/1.0.3.Final/6450a198f095a71cce572d131242642eebc50a31/config-api-runtime-1.0.3.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/config-api-runtime/1.0.3.Final/deed862d1991d55d223edd25c149da6b0215ab1d/config-api-runtime-1.0.3.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

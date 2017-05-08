@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:1.1.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.websocket/jboss-websocket-api_1.1_spec/1.1.1.Final/ede69599e320869aa3dc36a973d77afd6b862773/jboss-websocket-api_1.1_spec-1.1.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.websocket/jboss-websocket-api_1.1_spec/1.1.1.Final/d12f4f83a0c04646d7f6985735d12316f0b0045f/jboss-websocket-api_1.1_spec-1.1.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

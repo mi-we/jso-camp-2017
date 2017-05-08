@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="wildflyswarm-rest" type="JarApplication" factoryName="JAR Application" singleton="true" show_console_on_std_out="true" show_console_on_std_err="true">
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/wildflyswarm-rest-swarm.jar" />
+    <option name="WORKING_DIRECTORY" value="C:\temp\Camp17\MicroService\wildflyswarmrest" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <envs />
+    <method />
+  </configuration>
+</component>

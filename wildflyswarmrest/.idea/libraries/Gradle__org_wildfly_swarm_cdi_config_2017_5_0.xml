@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.swarm:cdi-config:2017.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/cdi-config/2017.5.0/da96f4066b5464762ca96f04a2c654d70fdadda7/cdi-config-2017.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/cdi-config/2017.5.0/be4f75152d9be500b07ae4f2a9633000e9fecd82/cdi-config-2017.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

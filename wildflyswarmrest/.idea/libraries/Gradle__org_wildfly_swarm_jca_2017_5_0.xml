@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.swarm:jca:2017.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/jca/2017.5.0/b3eea36e9f160f9cb3b0e439e12e80e88424bb34/jca-2017.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/jca/2017.5.0/22795a128229366097b7a5df204e8e3234ab675c/jca-2017.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

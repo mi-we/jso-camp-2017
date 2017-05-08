@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.swarm:request-controller:2017.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/request-controller/2017.5.0/f0e44a34abbab6e9b8684a1422eff25962795c7c/request-controller-2017.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/request-controller/2017.5.0/d68d083a1a0d040dfb84c58481c25eeb395b02fe/request-controller-2017.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

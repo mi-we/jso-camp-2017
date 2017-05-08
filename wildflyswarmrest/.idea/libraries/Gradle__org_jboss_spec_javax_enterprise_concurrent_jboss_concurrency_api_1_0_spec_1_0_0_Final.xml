@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.spec.javax.enterprise.concurrent:jboss-concurrency-api_1.0_spec:1.0.0.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.enterprise.concurrent/jboss-concurrency-api_1.0_spec/1.0.0.Final/67dbe20fc656d938dc0665661fe3ae60b52c4b4a/jboss-concurrency-api_1.0_spec-1.0.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.enterprise.concurrent/jboss-concurrency-api_1.0_spec/1.0.0.Final/886b803fd8860ff1a8f4cb158d61f3dc00b1bf09/jboss-concurrency-api_1.0_spec-1.0.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.swarm:naming:2017.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/naming/2017.5.0/5c26e1e1adf082b4fb6ff3c2ec65e5a9c650365b/naming-2017.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/naming/2017.5.0/e09bba663a99589cd87fa292b01b5f86252f4211/naming-2017.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

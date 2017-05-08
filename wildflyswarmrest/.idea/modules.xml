@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wildflyswarm-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/wildflyswarm-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wildflyswarm-rest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/wildflyswarm-rest_main.iml" group="wildflyswarm-rest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wildflyswarm-rest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/wildflyswarm-rest_test.iml" group="wildflyswarm-rest" />
+    </modules>
+  </component>
+</project>

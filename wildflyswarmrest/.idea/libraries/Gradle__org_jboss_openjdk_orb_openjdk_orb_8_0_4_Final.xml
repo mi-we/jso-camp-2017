@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.openjdk-orb:openjdk-orb:8.0.4.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.openjdk-orb/openjdk-orb/8.0.4.Final/8b030fbaa3bcd3bb924730956aa0bd8386e5465/openjdk-orb-8.0.4.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.openjdk-orb/openjdk-orb/8.0.4.Final/deedc45c4a02e671e65969336188d390ba2ae547/openjdk-orb-8.0.4.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

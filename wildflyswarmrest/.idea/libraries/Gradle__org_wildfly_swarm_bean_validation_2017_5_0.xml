@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.swarm:bean-validation:2017.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/bean-validation/2017.5.0/a4cdf49bad15de30b79f55ae8887c7a890e48947/bean-validation-2017.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/bean-validation/2017.5.0/c8d6c461cea7c75c267cf74f2e6e6bf8a72451fb/bean-validation-2017.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
