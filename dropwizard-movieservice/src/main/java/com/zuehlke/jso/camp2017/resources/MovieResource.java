@@ -1,12 +1,14 @@
 package com.zuehlke.jso.camp2017.resources;
 
-import com.zuehlke.jso.camp2017.db.Movie;
+import com.codahale.metrics.annotation.Timed;
+import com.zuehlke.jso.camp2017.api.Movie;
 import com.zuehlke.jso.camp2017.db.MovieRepository;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
+@Timed
 @Path("movies")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
