@@ -1,11 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: org.wildfly.swarm:spi:2017.5.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/spi/2017.5.0/b16ad4b6e36431cf564928e6200c8ce749edb3d9/spi-2017.5.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/wildfly/swarm/spi/2017.5.0/spi-2017.5.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/spi/2017.5.0/b0f94b4dc1497b45a3737940532d1fb4454bf2e/spi-2017.5.0-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

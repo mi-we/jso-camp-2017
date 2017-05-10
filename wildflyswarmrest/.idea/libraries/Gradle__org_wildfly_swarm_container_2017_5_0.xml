@@ -1,11 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: org.wildfly.swarm:container:2017.5.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/container/2017.5.0/224d93d8371a85bcfd7a90e6590c8a61b09cea48/container-2017.5.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/wildfly/swarm/container/2017.5.0/container-2017.5.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.swarm/container/2017.5.0/ca971454468e8b0ee90481cfb62f4e660466c904/container-2017.5.0-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

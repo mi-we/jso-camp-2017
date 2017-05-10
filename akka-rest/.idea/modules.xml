@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-rest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-rest_main.iml" group="akka-rest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-rest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-rest_test.iml" group="akka-rest" />
+    </modules>
+  </component>
+</project>
