@@ -46,6 +46,7 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <!--<mainClass>com.cbo.RestApplication</mainClass>-->
                 </configuration>
             </plugin>
         </plugins>
@@ -83,12 +84,17 @@
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <version>1.4.194</version>
+            <version>1.4.195</version>
         </dependency>
 
         <dependency>
             <groupId>org.wildfly.swarm</groupId>
             <artifactId>monitor</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.wildfly.swarm</groupId>
+            <artifactId>logging</artifactId>
         </dependency>
 
     </dependencies>
