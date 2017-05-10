@@ -11,8 +11,6 @@ import com.zuehlke.jso.movieservice.model.Movie;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.mongodb.client.model.Filters.eq;
-
 /**
  * Created by ccu on 09.05.2017.
  */

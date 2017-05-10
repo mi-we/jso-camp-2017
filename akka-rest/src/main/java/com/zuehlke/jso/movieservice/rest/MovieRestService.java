@@ -66,12 +66,9 @@ public class MovieRestService extends AllDirectives {
                         getFromResourceDirectory("web/js/")
                 ),
                 //path("movie", () -> route(
-                // matches paths like this: /movie and /move/id
+                // matches paths like this: /movies and /movie/id
                 pathPrefix("movies", () ->
-                        route(
-                                get(() -> getMovies()),
-                                get(() -> path(longSegment(), (Long id) -> getMovieWithId(id)))
-                        )
+                      get(() -> getMovies())
                 ),
                 pathPrefix("movie", () ->
                         get(() -> path(longSegment(), (Long id) -> getMovieWithId(id)))
@@ -96,9 +93,9 @@ public class MovieRestService extends AllDirectives {
 //                        .orElseGet(() -> complete(StatusCodes.NOT_FOUND, "Not Found"))
 //        );
 
-        CompletionStage<Movie> movies = ask(controllerActor,
+        CompletionStage<Movie> movie = ask(controllerActor,
                 new MovieRepositoryActor.MoviesDetailsCommand(Long.toString(movieId)), timeout).thenApply((Movie.class::cast));
-        return completeOKWithFuture(movies, Jackson.marshaller());
+        return completeOKWithFuture(movie, Jackson.marshaller());
     }
 
 }

@@ -57,7 +57,7 @@ dependencies {
 //    compile 'com.typesafe.akka:akka-contrib_2.11:2.5.1'
     //compile 'com.typesafe.akka:akka-http-java-testkit-experimental_2.11:1.0-M5'
     //compile "org.reactivemongo:reactivemongo_2.11:0.10.5.0.akka23"
-    compile "org.mongodb:mongodb-driver-async:3.0.2"
+    //compile "org.mongodb:mongodb-driver-async:3.0.2"
     compile 'javax.json:javax.json-api:1.0'
     compile 'org.glassfish:javax.json:1.0.4'
 
