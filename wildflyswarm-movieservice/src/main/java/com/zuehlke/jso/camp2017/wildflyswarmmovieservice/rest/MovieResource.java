@@ -3,6 +3,8 @@ package com.zuehlke.jso.camp2017.wildflyswarmmovieservice.rest;
 
 import com.zuehlke.jso.camp2017.wildflyswarmmovieservice.rest.domain.Movie;
 import com.zuehlke.jso.camp2017.wildflyswarmmovieservice.rest.domain.MovieDao;
+import org.jboss.logging.Logger;
+import org.wildfly.swarm.spi.runtime.annotations.ConfigurationValue;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
