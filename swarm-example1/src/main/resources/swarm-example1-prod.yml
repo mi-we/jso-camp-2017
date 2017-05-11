@@ -1,0 +1,12 @@
+project:
+    stage: prod
+logger:
+    level: INFO
+swarm:
+  port:
+    offset: 10
+---
+project-name:
+  logger:
+    level: INFO
+      category: com.hesscom.helloworld
