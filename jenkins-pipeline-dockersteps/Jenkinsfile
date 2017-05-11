@@ -1,8 +1,6 @@
 #!groovy
-agent any
-
-node {
-    echo 'Build using Pipeline and docker'
+pipeline {
+    agent any
 
     stages {
         stage('Checkout') { // for display purposes
