@@ -3,16 +3,17 @@ pipeline {
     agent any
 
     node {
-       echo 'Build using Pipeline and docker'
+        echo 'Build using Pipeline and docker'
     }
 
     stages {
         stage('Checkout') { // for display purposes
-            step('checkout from github'){
+            step('checkout from github') {
                 sh 'mkdir -f ./buildfolder && docker run -v buildfolder:/ switchback/git-debian https://github.com/mi-we/jso-camp-2017 master'
             }
+        }
         stage('Build') { // for display purposes
-            step('install git'){
+            step('install git') {
                 sh 'docker pull openjdk:8-jdk'
             }
 
