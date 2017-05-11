@@ -9,30 +9,26 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class MovieRepository {
 
-    private AtomicLong atomicId;
-    private Map<Long, Movie> movies;
+    private MovieDAO movieDAO;
 
-    public MovieRepository() {
-        atomicId = new AtomicLong(1);
-        movies = new LinkedHashMap<>();
+    public MovieRepository(MovieDAO movieDAO) {
+        this.movieDAO = movieDAO;
     }
 
     public List<Movie> getAll() {
-        return ImmutableList.copyOf(movies.values());
+        return movieDAO.findAll();
     }
 
     public Optional<Movie> get(long id) {
-        return Optional.of(movies.get(id));
+        return Optional.of(movieDAO.findById(id));
     }
 
     public Movie save(Movie movie) {
-        long nextId = atomicId.getAndIncrement();
-        Movie newMovie = new Movie(nextId, movie.getTitle(), movie.getYear());
-        movies.put(nextId, newMovie);
-        return newMovie;
+        movieDAO.insert(movie.getTitle(), movie.getYear());
+        return movie;
     }
 
     public void clear() {
-        movies.clear();
+        movieDAO.deleteAll();
     }
 }

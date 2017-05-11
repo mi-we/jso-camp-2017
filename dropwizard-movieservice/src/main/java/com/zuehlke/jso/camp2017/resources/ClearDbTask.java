@@ -16,8 +16,8 @@ public class ClearDbTask extends Task {
 
     @Override
     public void execute(ImmutableMultimap<String, String> immutableMultimap, PrintWriter printWriter) throws Exception {
-        printWriter.write("Clearing database...");
+        printWriter.write("Clearing database...\n");
         movieRepository.clear();
-        printWriter.write("Database cleared!");
+        printWriter.write("Database cleared!\n");
     }
 }

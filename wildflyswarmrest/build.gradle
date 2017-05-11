@@ -10,7 +10,7 @@ buildscript {
 
     dependencies {
         //classpath 'io.spring.gradle:dependency-management-plugin:1.0.2.RELEASE'
-        classpath "org.wildfly.swarm:wildfly-swarm-plugin:2017.2.0"
+        classpath "org.wildfly.swarm:wildfly-swarm-plugin:2017.5.0"
     }
 }
 
@@ -18,7 +18,7 @@ group 'com.zuehlke.jso.ccuz'
 version '1.0-SNAPSHOT'
 
 //apply plugin: 'io.spring.dependency-management'
-apply plugin: 'wildfly-swarm'
+//apply plugin: 'wildfly-swarm'
 apply plugin: 'application'
 apply plugin: 'java'
 
@@ -33,16 +33,17 @@ sourceCompatibility = 1.8
 repositories {
     mavenLocal()
     mavenCentral()
-    maven { url "https://repository.jboss.org/nexus/content/groups/public/" }
+    maven { url "https://repository.jboss.org/nexus/content/groups/public/"}
+    maven { url "https://repository.jboss.org/nexus/content/groups/m2-proxy/" }
 }
 
 mainClassName = 'com.zuehlke.jso.ccuz.swarm.Main'
 
-swarm {
+/*swarm {
     properties {
         swarm.http.port = 8181
     }
-}
+}*/
 
 dependencies {
     compile 'org.wildfly.swarm:bootstrap:2017.5.0'
@@ -51,12 +52,25 @@ dependencies {
     compile 'org.wildfly.swarm:jaxrs-cdi:2017.5.0'
     compile "org.wildfly.swarm:jaxrs:2017.5.0"
     compile "org.wildfly.swarm:naming:2017.5.0"
+    //compile 'org.wildfly.swarm:wildfly-swarm-msc:${wildfly.swarm.version}'
 
     compile 'com.google.code.gson:gson:2.7'
     compile "com.h2database:h2:1.4.195"
     compile 'org.hibernate:hibernate-annotations:3.4.0.GA'
     compile 'javax.transaction:jta:1.1'
+    compile group: 'org.glassfish', name: 'javax.el-impl', version: '3.0.1-b08-jbossorg-1'
+    //compile group: 'org.glassfish', name: 'javax.el-impl', version: '3.0.1-b08-jbossorg-1'
 
     //testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Swarm',
+                'Implementation-Version': version,
+                'Main-Class': mainClassName
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
