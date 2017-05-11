@@ -1,0 +1,17 @@
+#!groovy
+
+node {
+   echo 'Hello World'
+}
+
+stage('Checkout') { // for display purposes
+    step('install git'){
+        docker pull switchback/git-debian
+    }
+    step('checkout from github'){
+        docker run switchback/git-debian https://github.com/mi-we/jso-camp-2017 master
+    }
+}
+stage('Build') { // for display purposes
+    docker pull
+}
