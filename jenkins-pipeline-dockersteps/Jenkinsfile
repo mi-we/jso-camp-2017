@@ -1,0 +1,20 @@
+#!groovy
+pipeline {
+    //agent slave/node must have docker installed (which version???)
+    agent any
+    //https://www.develves.net/blogs/asd/2016-05-27-alternative-to-docker-in-docker/
+    stages {
+        stage('Checkout') { // for display purposes
+            steps{
+                sh 'mkdir -f ./buildfolder'
+                sh 'docker run -v /var/run/docker.sock:/var/run/docker.sock buildfolder:/ switchback/git-debian https://github.com/mi-we/jso-camp-2017 master'
+            }
+        }
+        stage('Build') { // for display purposes
+            steps{
+                sh 'docker pull maven:3.5.0-jdk-8-alpine'
+                sh 'docker run -v /var/run/docker.sock:/var/run/docker.sock buildfolder:/usr/src/mymaven -w /usr/src/mymaven maven:3.5.0-jdk-8-alpine mvn clean install'
+            }
+        }
+    }
+}
