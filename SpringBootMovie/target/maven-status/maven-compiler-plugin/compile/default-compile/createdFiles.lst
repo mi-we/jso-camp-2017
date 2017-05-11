@@ -1,0 +1,5 @@
+com/cbo/springmovie/Application.class
+com/cbo/springmovie/controller/MovieController.class
+com/cbo/springmovie/entity/Movie.class
+com/cbo/springmovie/service/MovieService.class
+com/cbo/springmovie/controller/HealthCheck.class
