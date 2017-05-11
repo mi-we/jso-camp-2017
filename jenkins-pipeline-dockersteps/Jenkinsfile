@@ -1,18 +1,17 @@
 #!groovy
 pipeline {
     agent any
-
     stages {
         stage('Checkout') { // for display purposes
-            step('checkout from github') {
-                sh 'mkdir -f ./buildfolder && docker run -v buildfolder:/ switchback/git-debian https://github.com/mi-we/jso-camp-2017 master'
+            steps{
+                sh 'mkdir -f ./buildfolder'
+                sh 'docker run -v buildfolder:/ switchback/git-debian https://github.com/mi-we/jso-camp-2017 master'
             }
         }
         stage('Build') { // for display purposes
-            step('install git') {
+            steps{
                 sh 'docker pull openjdk:8-jdk'
             }
-
         }
     }
 }
