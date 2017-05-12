@@ -1,7 +1,10 @@
 #!groovy
 pipeline {
     //agent slave/node must have docker installed (which version???)
-    agent { label 'slavedockermachine' }
+    agent {
+        docker 'jenkinsci/slave'
+        //label 'slavedockermachine'
+    }
     //https://www.develves.net/blogs/asd/2016-05-27-alternative-to-docker-in-docker/
         stages {
             stage('Checkout') { // for display purposes
