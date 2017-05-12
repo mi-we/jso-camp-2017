@@ -2,8 +2,8 @@
 pipeline {
     //agent slave/node must have docker installed (which version???)
     agent {
-        docker 'slavedockermachine'
-        //label 'slavedockermachine'
+        //docker 'slavedockermachine'
+        label 'slavedockermachine'
     }
     //https://www.develves.net/blogs/asd/2016-05-27-alternative-to-docker-in-docker/
         stages {
