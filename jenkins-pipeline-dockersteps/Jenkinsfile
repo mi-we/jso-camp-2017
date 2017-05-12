@@ -8,6 +8,12 @@ pipeline {
     //https://www.develves.net/blogs/asd/2016-05-27-alternative-to-docker-in-docker/
         stages {
             stage('Checkout') { // for display purposes
+                docker.image('jenkinsci/slave').inside {
+                    steps {
+                        sh 'mkdir -f ./buildfolder'
+                        sh 'docker run -v /var/run/docker.sock:/var/run/docker.sock buildfolder:/ switchback/git-debian https://github.com/mi-we/jso-camp-2017 master'
+                    }
+                }
                 steps {
                     sh 'mkdir -f ./buildfolder'
                     sh 'docker run -v /var/run/docker.sock:/var/run/docker.sock buildfolder:/ switchback/git-debian https://github.com/mi-we/jso-camp-2017 master'
